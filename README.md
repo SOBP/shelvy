@@ -16,17 +16,13 @@ Alternatively, [find me on telegram](https://t.me/dr_Edwin_Kosuma)! (Keep all su
 
 ## Starting the bot.
 
-Once you've setup your database and your configuration (see below) is complete, simply run:
-
-`python3 -m tg_bot`
-
+Simply press Deploy to Heroku button above than fill the empty box with env variables.
 
 ## Setting up the bot (Read this before trying to use!):
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older python versions!
 This is because markdown parsing is done by iterating through a dict, which are ordered by default in 3.6.
 
 ### Configuration
-
 The following env variables are supported:
  - `ENV`: Setting this to ANYTHING will enable env variables
  - `TOKEN`: Your bot token, as a string.
