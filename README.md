@@ -1,4 +1,5 @@
-# shelvy
+# Shelvy
+
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
 Originally a simple group management bot with multiple admin features, it has evolved, becoming extremely modular and 
@@ -16,13 +17,15 @@ Alternatively, [find me on telegram](https://t.me/dr_Edwin_Kosuma)! (Keep all su
 
 ## Starting the bot.
 
-Simply press Deploy to Heroku button above than fill the empty box with env variables.
+Simply press `Deploy to Heroku` button above than fill the empty box with env variables.
 
 ## Setting up the bot (Read this before trying to use!):
+
 Please make sure to use python3.6, as I cannot guarantee everything will work as expected on older python versions!
 This is because markdown parsing is done by iterating through a dict, which are ordered by default in 3.6.
 
 ### Configuration
+
 The following env variables are supported:
  - `ENV`: Setting this to ANYTHING will enable env variables
  - `TOKEN`: Your bot token, as a string.
